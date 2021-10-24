@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: rgba(26, 24, 22, 0.85);
+  background: rgba(26, 24, 22, 0.85); /*26, 24, 22, 0.85*/
 }
 #header.header-transparent {
   background: transparent;
@@ -407,11 +407,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffb03b;
 }
 #hero p {
-  width: 80%;
+  width: 90%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 20px;
 }
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
@@ -898,7 +899,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/dejan.jpg) center center no-repeat; /*events-bg.jpg*/
   background-size: cover;
   position: relative;
 }
